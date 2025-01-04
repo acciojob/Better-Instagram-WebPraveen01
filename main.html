@@ -31,31 +31,27 @@
 </head>
 <body>
     
-  <div id="parent" class="flex">
-   <div id="div1" class="image-box" draggable="true"  ondrop="drop(event)" ondragover="allowDrop(event)">Image1
-      <img id="drag1" src="https://picsum.photos/id/237/200/300"  ondragstart="drag(event)">
-   </div>
-
-   <div id="div2" class="image-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">Image2
-      <img id="drag2" src="https://picsum.photos/seed/picsum/200/300"  ondragstart="drag(event)">
-   </div>
-
-   <div id="div3" class="image-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">Image3
-      <img id="drag3" src="https://picsum.photos/200/300"  ondragstart="drag(event)">
-   </div>
-
-   <div id="div4" class="image-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">Image4
-      <img id="drag4" src="https://picsum.photos/200/300/"  ondragstart="drag(event)">
-   </div>
-
-   <div id="div5" class="image-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">Image5
-      <img id="drag5" src="https://picsum.photos/200/300.jpg"  ondragstart="drag(event)">
-   </div>
-
-   <div id="div6" class="image-box" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)">Image6
-      <img id="drag6" src="https://picsum.photos/id/102/200/300"  ondragstart="drag(event)">
-   </div>
-</div>
+ <h1 style="text-align: center">Arrange Images by drag and drop</h1>
+    <div class="flex" id="parent">
+      <div draggable="true" class="image" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" >Image 1
+        <img id="drag1" src="https://picsum.photos/id/237/200/300"  ondragstart="drag(event)">
+      </div>
+      <div draggable="true" class="image" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" >Image 2
+        <img id="drag2" src="https://picsum.photos/seed/picsum/200/300"  ondragstart="drag(event)">
+      </div>
+      <div draggable="true" class="image" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)" >Image 3
+        <img id="drag3" src="https://picsum.photos/200/300"  ondragstart="drag(event)">
+      </div>
+      <div draggable="true" class="image" id="div4" ondrop="drop(event)" ondragover="allowDrop(event)" >Image 4
+        <img id="drag4" src="https://picsum.photos/200/300/"  ondragstart="drag(event)">
+      </div>
+      <div draggable="true" class="image"  id="div5" ondrop="drop(event)" ondragover="allowDrop(event)">Image 5
+        <img id="drag5" src="https://picsum.photos/200/300.jpg"  ondragstart="drag(event)">
+      </div>
+      <div draggable="true" class="image" id="div6" ondrop="drop(event)" ondragover="allowDrop(event)" >Image 6
+        <img id="drag6" src="https://picsum.photos/id/102/200/300"  ondragstart="drag(event)">
+      </div>
+    </div>
 	<script type="text/javascript" src="./script.js">
 </script>
 
